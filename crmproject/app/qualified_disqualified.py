@@ -3,8 +3,8 @@ import pandas as pd
 import os
 from raw_data import editable_table
 
-QUALIFIED_PATH = "/Users/hassaniftikhar4472/Desktop/crmproject/data/qualified.csv"
-DISQUALIFIED_PATH = "/Users/hassaniftikhar4472/Desktop/crmproject/data/disqualified.csv"
+QUALIFIED_PATH = "/crmproject/data/qualified.csv"
+DISQUALIFIED_PATH = "/crmproject/data/disqualified.csv"
 
 def load_data(file_path):
     if os.path.exists(file_path):
