@@ -4,10 +4,10 @@ import os
 import matplotlib.pyplot as plt
 
 # File paths
-DEALS_ACTIVE_PATH = "/Users/hassaniftikhar4472/Desktop/crmproject/data/deals_active.csv"
-FOLLOW_UP_PATH = "/Users/hassaniftikhar4472/Desktop/crmproject/data/follow_up.csv"
-CLOSED_DEAL_PATH = "/Users/hassaniftikhar4472/Desktop/crmproject/data/closed_deal.csv"
-Qualified_DEAL_PATH = "/Users/hassaniftikhar4472/Desktop/crmproject/data/qualified.csv"
+DEALS_ACTIVE_PATH = "/crmproject/data/deals_active.csv"
+FOLLOW_UP_PATH = "/crmproject/data/follow_up.csv"
+CLOSED_DEAL_PATH = "/crmproject/data/closed_deal.csv"
+Qualified_DEAL_PATH = "/crmproject/data/qualified.csv"
 
 def load_data(file_path):
     if os.path.exists(file_path):
