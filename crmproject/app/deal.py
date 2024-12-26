@@ -2,11 +2,11 @@ import streamlit as st
 import pandas as pd
 import os
 
-DEALS_ACTIVE_PATH = "/Users/hassaniftikhar4472/Desktop/crmproject/data/deals_active.csv"
-FOLLOW_UP_PATH = "/Users/hassaniftikhar4472/Desktop/crmproject/data/follow_up.csv"
-CLOSED_DEAL_PATH = "/Users/hassaniftikhar4472/Desktop/crmproject/data/closed_deal.csv"
-LOST_DEAL_PATH = "/Users/hassaniftikhar4472/Desktop/crmproject/data/lost_deal.csv"
-APPSETTER_PATH = "/Users/hassaniftikhar4472/Desktop/crmproject/data/appsetter.csv"
+DEALS_ACTIVE_PATH = "/crmproject/data/deals_active.csv"
+FOLLOW_UP_PATH = "/crmproject/data/follow_up.csv"
+CLOSED_DEAL_PATH = "/crmproject/data/closed_deal.csv"
+LOST_DEAL_PATH = "/crmproject/data/lost_deal.csv"
+APPSETTER_PATH = "/crmproject/data/appsetter.csv"
 
 def load_data(file_path):
     if os.path.exists(file_path):
