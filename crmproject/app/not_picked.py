@@ -2,9 +2,9 @@ import streamlit as st
 import pandas as pd
 import os
 from raw_data import editable_table 
-MEETING_BOOKED_PATH = "/Users/hassaniftikhar4472/Desktop/crmproject/data/meeting_booked.csv"
-BIN_PATH = "/Users/hassaniftikhar4472/Desktop/crmproject/data/bin.csv"
-NOT_PICKED_PATH = "/Users/hassaniftikhar4472/Desktop/crmproject/data/not_picked.csv"
+MEETING_BOOKED_PATH = "/crmproject/data/meeting_booked.csv"
+BIN_PATH = "/crmproject/data/bin.csv"
+NOT_PICKED_PATH = "/crmproject/data/not_picked.csv"
 
 def load_notpicked_data():
     if os.path.exists(NOT_PICKED_PATH):
