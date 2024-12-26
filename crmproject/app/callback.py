@@ -3,9 +3,9 @@ import pandas as pd
 import os
 from raw_data import editable_table  # Import editable_table function from raw_data.py
 
-CALLBACK_PATH = "/Users/hassaniftikhar4472/Desktop/crmproject/data/callback.csv"
-MEETING_BOOKED_PATH = "/Users/hassaniftikhar4472/Desktop/crmproject/data/meeting_booked.csv"
-BIN_PATH = "/Users/hassaniftikhar4472/Desktop/crmproject/data/bin.csv"
+CALLBACK_PATH = "/crmproject/data/callback.csv"
+MEETING_BOOKED_PATH = "/crmproject/data/meeting_booked.csv"
+BIN_PATH = "/crmproject/data/bin.csv"
 
 def load_callback_data():
     if os.path.exists(CALLBACK_PATH):
