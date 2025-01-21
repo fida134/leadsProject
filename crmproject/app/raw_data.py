@@ -2,12 +2,12 @@ import streamlit as st
 import pandas as pd
 import os
 
-DATA_PATH = "data/raw_data.csv"
-BIN_PATH = "data/bin.csv"
-MEETING_BOOKED_PATH = "data/meeting_booked.csv"
-APPSETTER_PATH = "data/appsetter.csv"
-NOT_PICKED_PATH = "data/not_picked.csv"
-CALLBACK_PATH = "data/callback.csv"
+DATA_PATH = "/crmproject/data/raw_data.csv"
+BIN_PATH = "/crmproject/data/bin.csv"
+MEETING_BOOKED_PATH = "/crmproject/data/meeting_booked.csv"
+APPSETTER_PATH = "/crmproject/data/appsetter.csv"
+NOT_PICKED_PATH = "/crmproject/data/not_picked.csv"
+CALLBACK_PATH = "/crmproject/data/callback.csv"
 
 def load_data():
     """Load raw data from CSV."""
